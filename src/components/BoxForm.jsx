@@ -3,7 +3,6 @@ import React, { useState } from "react";
 const BoxForm = (props) => {
   const [newColor, setNewColor] = useState("");
   const [newSize, setNewSize] = useState("");
-
   const [box, setBox] = useState([]);
 
   const handleSubmit = (e) => {
